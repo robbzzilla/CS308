@@ -34,13 +34,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="about.php">about</a>
+                <a class="nav-link" href="dashboard/about.php">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="experience.php">experience</a>
+                <a class="nav-link" href="dashboard/experience.php">experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.php">contact</a>
+                <a class="nav-link" href="dashboard/contact.php">contact</a>
             </li>
         </ul>
     </div>
@@ -80,37 +80,35 @@
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>Some Links</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
+            <p>my wife, my baby girl, and my brothers</p>
+            <h3>more links</h3>
+            <p>github/heroku/linkedin</p>
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link active" href="https://github.com/robbzzilla">github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="https://byu308.herokuapp.com/">heroku</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/robertahampton/">linkedin</a>
                 </li>
             </ul>
             <hr class="d-sm-none">
         </div>
         <div class="col-sm-8">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <h2>Software Engineer and Full Stack Developer</h2>
+            <h5>student of Brigham Young University - Idaho</h5>
+            <div class="fakeimg"><img src="/images/byui.jpg" alt="byui"></div>
+            <p>as a student..</p>
+            <p>I am currently pursuing a bachelor's degree in Software Engineering with a focus in Full Stack
+                Development. I intend on graduating May 2023.</p>
             <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <h2>Scholar of all Trades</h2>
+            <h5>mechanic, student, father, son</h5>
+            <div class="fakeimg"><img src="/images/multiple.png" alt="coding languages"></div>
+            <p>seeker of knowledge</p>
+            <p>In all things. Papa bless us with more papadia. We are who we choose to reveal.</p>
         </div>
     </div>
 </div>
