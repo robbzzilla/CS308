@@ -9,10 +9,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
         .carousel-inner img {
             width: 100%;
             height: 100%;
@@ -99,14 +95,14 @@
         <div class="col-sm-8">
             <h2>Software Engineer and Full Stack Developer</h2>
             <h5>student of Brigham Young University - Idaho</h5>
-            <div class="fakeimg"><img src="/images/byui.jpg" alt="byui"></div>
+            <div class="container"><img src="/images/byui.jpg" alt="byui" class="img-fluid" width="600" height="345"></div>
             <p>as a student..</p>
             <p>I am currently pursuing a bachelor's degree in Software Engineering with a focus in Full Stack
                 Development. I intend on graduating May 2023.</p>
             <br>
             <h2>Scholar of all Trades</h2>
             <h5>mechanic, student, father, son</h5>
-            <div class="fakeimg"><img src="/images/multiple.png" alt="coding languages"></div>
+            <div class="container"><img src="/images/multiple.png" alt="coding languages" class="img-fluid"width="600" height="345"></div>
             <p>seeker of knowledge</p>
             <p>In all things. Papa bless us with more papadia. We are who we choose to reveal.</p>
         </div>
@@ -114,7 +110,7 @@
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+    <p>thanks for visiting</p>
 </div>
 
 </body>
