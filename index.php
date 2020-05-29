@@ -13,30 +13,34 @@
             height: 200px;
             background: #aaa;
         }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>My First Bootstrap 4 Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
+    <h1>Robert A. Hampton</h1>
+    <p>portfolio</p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="/index.php">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="about.php">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="experience.php">experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="contact.php">contact</a>
             </li>
         </ul>
     </div>
@@ -46,8 +50,36 @@
     <div class="row">
         <div class="col-sm-4">
             <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg">Fake Image</div>
+            <h5>Photos of me:</h5>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/photo1.jpg" alt="photo1" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/photo2.jpg" alt="photo2" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/photo3.jpg" alt="photo3" width="1100" height="500">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
             <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
             <h3>Some Links</h3>
             <p>Lorem ipsum dolor sit ame.</p>
