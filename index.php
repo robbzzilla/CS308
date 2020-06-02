@@ -61,13 +61,13 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/photo1.jpg" alt="photo1" width="1100" height="500">
+                        <img class="d-block w-100" src="/images/photo1.jpg" alt="photo1">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/photo2.jpg" alt="photo2" width="1100" height="500">
+                        <img class="d-block w-100" src="/images/photo2.jpg" alt="photo2">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/photo3.jpg" alt="photo3" width="1100" height="500">
+                        <img class="d-block w-100" src="/images/photo3.jpg" alt="photo3">
                     </div>
                 </div>
 
