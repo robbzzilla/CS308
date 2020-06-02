@@ -9,10 +9,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
-        .carousel-inner img {
-            width: 100%;
-            height: 100%;
-        }
         .carousel-item {
             overflow: hidden;
         }
@@ -52,61 +48,71 @@
             <h5>Photos of me:</h5>
             <div id="demo" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-                <ul class="carousel-indicators">
+                <ol class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
+                </ol>
 
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="/images/photo1.jpg" alt="photo1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>My brothers and our babies</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="/images/photo2.jpg" alt="photo2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>My wife and I hang gliding</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="/images/photo3.jpg" alt="photo3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>My sweetheart</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Left and right controls -->
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#demo" data-slide="next">
                     <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span
                 </a>
             </div>
-            <p>my wife, my baby girl, and my brothers</p>
-            <h3>more links</h3>
-            <p>github/heroku/linkedin</p>
+            <h3>External Links</h3>
+            <p>Github/Heroku/LinkedIn</p>
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="https://github.com/robbzzilla">github</a>
+                    <a class="nav-link active" href="https://github.com/robbzzilla">Github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://byu308.herokuapp.com/">heroku</a>
+                    <a class="nav-link" href="https://byu308.herokuapp.com/">Heroku</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/robertahampton/">linkedin</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/robertahampton/">LinkedIn</a>
                 </li>
             </ul>
             <hr class="d-sm-none">
         </div>
         <div class="col-sm-8">
             <h2>Software Engineer and Full Stack Developer</h2>
-            <h5>student of Brigham Young University - Idaho</h5>
+            <h3>Student of Brigham Young University - Idaho</h3>
             <div class="container"><img src="/images/byui.jpg" alt="byui" class="img-fluid" width="600" height="345"></div>
-            <p>as a student..</p>
+            <h5>As a student..</h5>
             <p>I am currently pursuing a bachelor's degree in Software Engineering with a focus in Full Stack
                 Development. I intend on graduating May 2023.</p>
             <br>
             <h2>Scholar of all Trades</h2>
-            <h5>mechanic, student, father, son</h5>
+            <h3>Mechanic, student, father, son</h3>
             <div class="container"><img src="/images/multiple.png" alt="coding languages" class="img-fluid"width="600" height="345"></div>
-            <p>seeker of knowledge</p>
+            <h5>Seeker of knowledge</h5>
             <p>In all things. Papa bless us with more papadia. We are who we choose to reveal.</p>
         </div>
     </div>
